@@ -1,0 +1,35 @@
+works_on_smartphone{
+.logo{
+	width:10px;
+	margin:2px;
+}
+
+
+main{
+display:flex;
+margin:2px;
+padding:2px;
+
+
+}
+
+.flex1{
+
+width:33%;
+border: 3px solid red; 
+margin:2px;
+}
+
+.flex2{
+ border: 3px solid red; 
+ width:66%;
+ text-align: center;
+margin:2px;
+}
+footer{
+font-size:15px;
+background-color:white;
+text-align:center;
+
+
+}
