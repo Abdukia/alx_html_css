@@ -1,6 +1,6 @@
-.container{
-display: flex;
+ .container{
 
-
-}
-
+    display: flex;
+    flex-direction: row;
+    float:inline-start;
+ }
