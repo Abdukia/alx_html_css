@@ -1,0 +1,398 @@
+
+
+/*  Header  ======*/
+header{
+    display: flex;
+  
+}
+
+.top{
+margin-left: 200px;
+    
+}
+   
+
+.header-logo{
+    margin-left: 191.59px;
+    padding-top: 50px;
+    
+}
+
+.background-image{
+display: flex;
+flex-direction: column;
+background-image:url(image/Object.png); 
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size:cover;
+
+height: 1060px;
+margin-left: -4.0px;
+margin-top: -5px;
+
+}
+
+
+.navbar-menu{
+   width: 1450px;
+   height: 39px;
+   color: white;
+
+}
+
+nav li{
+
+    float: right;
+    white-space: 2px;
+    word-spacing: 2rem;
+    list-style: none;
+}
+nav li a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: large;
+    line-height: 15.08px;
+    font-weight: 700px;
+  
+}
+
+
+
+/*  section part ======*/
+.container {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.section-getschooled{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-items: center;
+}
+.main-part{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.section-getschooled  h1{
+
+    font-size: 120px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    
+    
+ 
+   
+}
+
+.section-getschooled .get h1{
+
+    font-size: 120px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.section-getschooled p{
+    
+color: white;
+    font-size: 18px;
+    text-align: center;
+    
+  
+}
+
+ button{
+   background-color: #C271FF;
+   color: white;
+   width: fit-content;
+   align-self: center;
+   text-align: center;
+   
+   
+   
+}
+
+.section-container-inside{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100vh;
+   
+}
+
+.section-container-inside .inside{
+justify-content: space-evenly;
+
+}
+
+.inside{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+}
+
+.inside h6{
+
+    color: white;
+    font-size: 12px;
+}
+
+.inside p{
+
+    color: white;
+    font-size: large;
+}
+
+.section-container-inside h1{
+
+    color: white;
+    font-size: 80px;
+}
+.section-container-inside .learn{
+    color: #C271FF;
+}
+
+ 
+/* testimonial =====*/
+
+
+.testimonial-container{
+display: flex;
+flex-direction: row;
+background-color: #C271FF;
+padding: 10px;
+margin-bottom: 60px;
+
+
+
+}
+
+.testimonial-box{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: 392px;
+   justify-content: center;
+   align-items: center;
+   padding: 5px;
+ 
+}
+
+.qoute{
+padding-left: 25px;
+color: white;
+font-size: 22px;
+font-weight: 400;
+
+
+}
+
+
+/* video section =======*/
+.videos-section{
+    display: flex;
+    flex-direction: column;
+    width: 1328px;
+    height: 450px;
+    margin-bottom: 90px;
+    margin-left: 15%;
+    
+  
+}
+
+.videos-section h1{
+
+    text-align: center;
+    font-size: 38px;
+    color: black;
+    font-weight: 300;
+}
+
+.videos-section h1 .pop{
+
+    color: #C271FF;
+
+
+}
+.videos-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 115px;
+    padding: 60px;
+    margin-bottom: ;
+justify-content: space-around;
+}
+
+
+
+
+
+/*free membership------*/
+
+.Membership{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 502px;
+    width: 100%;
+    background: #071629;
+    margin-top: 140px;
+  
+   
+
+
+}
+
+    
+.membership-container{
+    display: flex;
+    box-sizing: border-box;
+    width: 1440px;
+    height: 502px;
+    
+    color: white;
+    justify-content: center;
+    align-self: center;
+   justify-content: space-evenly;
+    padding: px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    
+   
+
+}
+
+.Membership  h1 {
+    color:white;
+    align-self: center;
+    padding: 60px;
+    font-size: 32px;
+    line-height: 40px;
+
+}
+.Membership h1 .free{
+    color: #C271FF;
+    
+}
+
+
+ button{
+    display: flex;
+   
+   background: #C271FF;
+   color: white;
+   padding: 10px;
+   justify-content: center;
+    align-self: center;
+    margin-left: 46%;
+    margin-bottom: 25px;
+  
+
+}
+    
+.mem-box1 .mem-box2 .mem-box3 .mem-box4{
+width: 257px;
+    
+}
+    
+
+
+/* FAQ -----------------------------*/
+
+
+.FAQ{
+
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 25px;
+  
+}
+
+.FAQ h1{
+    font-size: 60px;
+}
+
+.FAQ-container{
+    display: flex;
+    flex-direction: row;
+    width: 920px;
+    height: 707px;
+    justify-content: space-evenly;
+    align-self: center;
+    text-align: justify;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.FAQ-row-b-first{
+   justify-content: space-between;
+   padding:  50px;
+
+}
+
+.FAQ-row-b-second{
+margin-left: 90px;
+margin-top: 30px;
+
+
+
+}
+
+.FAQ-container .item-b-1{
+
+margin-bottom:  10px;
+
+
+}
+
+/*footer--------------*/
+
+footer{
+
+    background:#071629;
+    color: white;
+   height: 100px;
+   padding: 20px;
+    
+}
+footer .socialmedia{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding: 2px;
+}
+footer p{
+
+    text-align: center;
+}
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
