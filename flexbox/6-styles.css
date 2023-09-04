@@ -227,21 +227,18 @@
     letter-spacing: var(--nav-item-letter-spacing);
     
   }
-  .nav-item + .nav-item{
-    margin: var(--nav-item-margin);
-
-  }
-
   
   .nav .nav-link {
     display: block;
     padding: 0.5rem 0;
     position: relative;
+    margin: var(--nav-item-margin);
   }
   
   .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
     text-decoration: none;
+    margin: var(--nav-item-margin);
   }
   
   .nav .nav-link::before {
